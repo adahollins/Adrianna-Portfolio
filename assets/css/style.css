@@ -1,0 +1,36 @@
+:root {
+    --cream: #fefae0;
+    --pink: #dc9d8f;
+    --purple: #69646f;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    line-height: 1.5;
+    text-align: center;
+    background-color: var(--cream) !important;
+}
+
+
+/*Navbar*/
+
+.customNav a {
+    color: var(--cream) !important;
+}
+
+.customNav a:hover, .customNav a:focus {
+    color: var(--purple) !important;
+}
+
+/*Header*/
+.hero-banner {
+    background-image: url("../images/hero_banner.png");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 250px;
+    top: 56px;
+}
