@@ -2,7 +2,7 @@
     --cream: #fefae0;
     --pink: #dc9d8f;
     --purple: #69646f;
-  }
+}
 
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -63,4 +63,27 @@ h2 {
     align-items: center;
     padding-left: 50px;
     padding-top: 50px;
+}
+
+/*Footer*/
+
+footer {
+    background-color: var(--pink);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+footer li {
+    display: inline;
+    font-size: 20px;
+    padding: 40px;
+}
+
+footer a {
+    text-decoration: none;
+    color: var(--cream);
+}
+
+footer a:hover {
+    color: var(--purple);
 }
