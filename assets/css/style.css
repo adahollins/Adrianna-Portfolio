@@ -46,6 +46,24 @@ h2 {
     top: 55px;
 }
 
+/*Projects*/
+.container-projects {
+    padding-top: 50px;
+}
+
+#projects {
+    padding-top: 125px;
+}
+
+.card {
+    background-color: var(--purple) !important;
+}
+
+.card h5,
+.card p {
+    color: var(--cream);
+}
+
 /*About Me*/
 
 #container-about {
@@ -65,15 +83,6 @@ h2 {
     padding-top: 50px;
 }
 
-/*Projects*/
-.container-projects {
-    padding-top: 50px;
-}
-
-#projects {
-    padding-top: 125px;
-}
-
 /*Skills*/
 .container-skills {
     padding-top: 50px;
@@ -86,7 +95,7 @@ h2 {
 }
 
 .list-group-item {
-    background-color: var(--pink) !important;
+    background-color: var(--purple) !important;
     padding-left: 25px !important;
     padding-right: 25px !important;
     border: var(--cream) solid 1px !important;
