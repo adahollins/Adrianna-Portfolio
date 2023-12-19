@@ -26,13 +26,13 @@
                 <a class="nav-link" href="#projects">Projects</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#about">About Me</a>
+                <a class="nav-link" href="#about">About</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#skills">Skills</a>
               </li>
             <li class="nav-item">
-                <a class="nav-link" href="#contacts">Contact Me</a>
+                <a class="nav-link" href="#contact">Contact</a>
             </li>
             </ul>
           </div>
@@ -43,24 +43,10 @@
     <section class="hero-banner" id="hero">
     </section>
 
-    <!--Gutter-->
-    <div class="container px-4 text-center">
-      <div class="row gx-5">
-        <div class="col">
-          <div class="p-3">
-          </div>
-        </div>
-        <div class="col">
-          <div class="p-3">
-          </div>
-        </div>
-      </div>
-    </div>
-
     <!--Projects-->
     <section class="page-section" id="projects">
     <h2>Projects</h2>
-    <div class="row row-cols-1 row-cols-md-2 g-4 page-section">
+    <div class="row row-cols-1 row-cols-md-2 g-4 container-projects">
         <div class="col">
           <div class="card" id="project1">
             <img src="https://placehold.co/600x400" class="card-img-top" alt="...">
@@ -100,8 +86,9 @@
       </div>
       </section>
 
-    <!--About-->
-    <section class="page-section" id="about">
+    <!--About/Skills-->
+    <main class="page-section">
+    <section id="about">
       <h2>About Me</h2>
         <div id="container-about">
           <img src="assets/images/about_me.jpeg">
@@ -112,18 +99,30 @@
         </p>
       </div>
     </section>
-
-    <!--Skills-->
-
+    <section id="skills">
+      <ul class="list-group list-group-horizontal-md container-skills">
+        <li class="list-group-item">HTML</li>
+        <li class="list-group-item">CSS</li>
+        <li class="list-group-item">Javascript</li>
+        <li class="list-group-item">Bootstrap</li>
+        <li class="list-group-item">React</li>
+        <li class="list-group-item">GitHub</li>
+        <li class="list-group-item">ES6</li>
+        <li class="list-group-item">Node</li>
+      </ul>
+    </section>
+    </main>
 
     <!--Contacts/Footer-->
     <footer id="contact">
       <h2>Contact Me</h2>
-      <ul>
-        <li><a href="mailto: adrianna.hollins@hotmail.com">Email</a> </li>
-        <li><a href="https://github.com/adahollins">GitHub</a> </li>
-        <li><a href="https://www.linkedin.com/in/adrianna-hollins-72b782244/">Linkedin</a> </li>
-      </ul>
+      <div class="container-contact">
+        <ul>
+          <li><a href="mailto: adrianna.hollins@hotmail.com">Email</a> </li>
+          <li><a href="https://github.com/adahollins">GitHub</a> </li>
+          <li><a href="https://www.linkedin.com/in/adrianna-hollins-72b782244/">Linkedin</a> </li>
+        </ul>
+      </div>
     </footer>
 
 

@@ -21,8 +21,7 @@ h2 {
 }
 
 .page-section {
-    padding-top: 50px !important;
-    padding-bottom: 50px !important;
+    padding-bottom: 100px !important;
     margin: auto 100px !important;
 }
 
@@ -51,6 +50,7 @@ h2 {
 
 #container-about {
     display: flex;
+    padding-top: 50px;
 }
 
 #about img {
@@ -63,6 +63,37 @@ h2 {
     align-items: center;
     padding-left: 50px;
     padding-top: 50px;
+}
+
+/*Projects*/
+.container-projects {
+    padding-top: 50px;
+}
+
+#projects {
+    padding-top: 125px;
+}
+
+/*Skills*/
+.container-skills {
+    padding-top: 50px;
+}
+
+.list-group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.list-group-item {
+    background-color: var(--pink) !important;
+    padding-left: 25px !important;
+    padding-right: 25px !important;
+    border: var(--cream) solid 1px !important;
+}
+
+.container-skills li {
+    color: var(--cream);
 }
 
 /*Footer*/
@@ -86,4 +117,8 @@ footer a {
 
 footer a:hover {
     color: var(--purple);
+}
+
+.container-contact {
+    padding-top: 25px;
 }
