@@ -4,7 +4,7 @@
 This project was made to be my portfolio as a Web Developer. It includes my projects, an 'About Me', my skills and ways to contact me. Currently there are no projects presented but I will be adding them later on the line.
 
 ## Installation
-N/A
+You can check the website at this link: https://adahollins.github.io/Bootstrap-Portfolio/
 
 ## Usage
 This project can be used to get to know me and my skills for Web Development.

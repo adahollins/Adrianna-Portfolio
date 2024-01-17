@@ -64,6 +64,10 @@ h2 {
     color: var(--cream);
 }
 
+#projects a {
+    text-decoration: none;
+}
+
 /*About Me*/
 
 #container-about {
